@@ -10,9 +10,9 @@ function Button({start,stop,resume,reset,status}) {
       )}
 
       {status === 1 ? (
-        <div >
-          <button  className='hover:text-red-500 hover:bg-white bg-red-500 text-white p-[10px] rounded-[10px] shadow-lg  transform-transition  font-bold transform hover:scale-105 mb1:text-[20px] sm:text-[30px] lg:text-[40px] m-[70px]' onClick={stop}>Stop</button>
-          <button  className=' hover:text-green-500 hover:bg-white bg-green-500 rounded-[10px] p-[10px] text-white mb1:text-[20px]  sm:text-[30px] font-bold  lg:text-[40px] shadow-lg   sm-[40px]'  onClick={reset}>Reset</button>
+        <div  >
+          <button  className='  mr-[10px]  hover:text-red-500 hover:bg-white bg-red-500 text-white p-[10px] rounded-[10px] shadow-lg  transform-transition  font-bold transform hover:scale-105 mb1:text-[20px] sm:text-[30px] lg:text-[40px] ' onClick={stop}>Stop</button>
+          <button  className='  mr-[10px] hover:text-green-500 hover:bg-white bg-green-500 rounded-[10px] p-[10px] text-white mb1:text-[20px]  sm:text-[30px] font-bold  lg:text-[40px] shadow-lg   sm-[40px]'  onClick={reset}>Reset</button>
         </div>
       ) : (
         ""
