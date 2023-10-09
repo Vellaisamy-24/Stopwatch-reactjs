@@ -55,7 +55,8 @@ function App() {
   return (
     < >
   
-     <div >
+     <div className='' >
+     <div className='  font-bold text-[40px]  text-violet-400 shadow-lg not-italic  text-center  mt-[150px]'>Count Down Timer </div>
           <div>
                <Display timer={timer}/>
                <Button status={status} resume={resume} reset={reset} stop={stop} start={start}/>

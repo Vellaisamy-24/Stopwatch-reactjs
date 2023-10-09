@@ -9,7 +9,8 @@ function Display({timer}) {
      }
   }
   return (
-    <div className='w-screen mb1:text-[90px]  sm:text-[120px] lg:text-[200px]  text-center mt-[200px]'>
+    <div className='w-screen mb1:text-[90px]  sm:text-[120px] lg:text-[200px]  text-center mt-[50px]'>
+  
        {h()}
        <span className='text-red-200 sm:pr-[20px]'>{(timer.minutes >= 10)? timer.minutes : "0"+ timer.minutes}</span>
        <span className='text-red-200 sm:pr-[20px]'>{(timer.seconds>= 10)? timer.seconds : "0"+ timer.seconds}</span>

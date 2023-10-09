@@ -20,8 +20,8 @@ function Button({start,stop,resume,reset,status}) {
 
       {status === 2 ? (
         <div>
-          <button   className='hover:text-green-500 hover:bg-white bg-green-500 p-[10px] rounded-[10px] text-white transform-transition  font-bold  transform hover:scale-105 shadow-lg   mb1:text-[20px] sm:text-[30px] lg:text-[40px]    sm:m-[40px]' onClick={resume}>Resume</button>
-          <button  className=' hover:text-red-500 hover:bg-white bg-red-500 text-white transform-transition transform hover:scale-105  font-bold shadow-lg  mb1:text-[20px] sm:text-[30px] lg:text-[40px] p-[10px] rounded-[10px]  sm-[40px]' onClick={reset}>Reset</button>
+          <button   className='mr-[10px] hover:text-green-500 hover:bg-white bg-green-500 p-[10px] rounded-[10px] text-white transform-transition  font-bold  transform hover:scale-105 shadow-lg   mb1:text-[20px] sm:text-[30px] lg:text-[40px]    sm:m-[40px]' onClick={resume}>Resume</button>
+          <button  className=' mr-[10px] hover:text-red-500 hover:bg-white bg-red-500 text-white transform-transition transform hover:scale-105  font-bold shadow-lg  mb1:text-[20px] sm:text-[30px] lg:text-[40px] p-[10px] rounded-[10px]  sm-[40px]' onClick={reset}>Reset</button>
         </div>
       ) : (
         ""
