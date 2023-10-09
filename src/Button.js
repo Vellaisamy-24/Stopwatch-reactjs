@@ -4,7 +4,7 @@ function Button({start,stop,resume,reset,status}) {
   return (
     <div className='text-center m-[10px] '>
       {status === 0 ? (
-        <button className='  mb1:text-[20px] bg-green-500 p-[10px] shadow-lg  transform-transition transform hover:scale-105 border rounded font-bold rounded-[10px] text-white sm:text-[30px] lg:text-[40px]  ' onClick={start}>Start</button>
+        <button className=' mb1:text-[20px] bg-green-500 p-[10px] shadow-lg  transform-transition transform hover:scale-105 border rounded font-bold rounded-[10px] text-white sm:text-[30px] lg:text-[40px]  ' onClick={start}>Start</button>
       ) : (
         ""
       )}
