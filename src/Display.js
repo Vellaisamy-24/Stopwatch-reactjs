@@ -9,6 +9,8 @@ function Display({timer}) {
      }
   }
   return (
+    <>
+    <div className=' font-bold text-[40px] font-ibm-plex-sans  text-violet-400 shadow-lg not-italic  text-center  mt-[150px]'>Stop watch </div>
     <div className='w-screen mb1:text-[60px]  sm:text-[120px] lg:text-[200px]  text-center mt-[50px]'>
   
        {h()}
@@ -16,6 +18,7 @@ function Display({timer}) {
        <span className='text-red-200 mb1:pr-[20px] sm:pr-[30px]'>{(timer.seconds>= 10)? timer.seconds : "0"+ timer.seconds}</span>
        <span className='text-red-200 mb1:pr-[20px] sm:pr-[30px]'>{(timer.milliseconds >= 10)? timer.milliseconds: "0"+ timer.milliseconds}</span>
     </div>
+    </>
   );
 }
 

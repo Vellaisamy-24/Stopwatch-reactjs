@@ -22,6 +22,14 @@ module.exports = {
         '2xl': '1536px',
         // => @media (min-width: 1536px) { ... }
       },
+    
+      
+      fontFamily: {
+        'ibm-plex-sans': ['IBM Plex Sans', 'sans'],
+        exquisite: ['ExquisiteFont', 'sans'],
+        montserrat: ['Montserrat', 'sans'],
+        
+      },
     },
   },
   plugins: [],
